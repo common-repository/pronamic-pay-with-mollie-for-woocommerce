@@ -1,0 +1,70 @@
+# Copyright (C) 2023 Pronamic
+# This file is distributed under the Proprietary.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pronamic Payment Gateways Countries Condition for "
+"WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pronamic-payment-"
+"gateways-countries-condition-for-woocommerce\n"
+"POT-Creation-Date: 2023-10-31T13:53:05+00:00\n"
+"PO-Revision-Date: 2023-10-31 14:53+0100\n"
+"Last-Translator: Remco Tolsma <info@remcotolsma.nl>\n"
+"Language-Team: https://www.pronamic.nl/\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Domain: pronamic-woocommerce-payment-gateways-countries-condition\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Plugin Name of the plugin
+msgid "Pronamic Payment Gateways Countries Condition for WooCommerce"
+msgstr "Pronamic Payment Gateways Countries Condition for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://www.pronamic.shop/product/pronamic-payment-gateways-countries-"
+"condition-for-woocommerce/"
+msgstr ""
+"https://www.pronamic.shop/product/pronamic-payment-gateways-countries-"
+"condition-for-woocommerce/"
+
+#. Description of the plugin
+msgid ""
+"This plugin allows you to specify the countries in which each WooCommerce "
+"payment gateway is available."
+msgstr ""
+"Met deze plugin kun je per WooCommerce betalingsgateway aangeven in welke "
+"landen deze beschikbaar is"
+
+#. Author of the plugin
+msgid "Pronamic"
+msgstr "Pronamic"
+
+#. Author URI of the plugin
+msgid "https://www.pronamic.eu/"
+msgstr "https://www.pronamic.nl/"
+
+#: src/Plugin.php:90
+msgid "Countries condition"
+msgstr "Landen conditie"
+
+#: src/Plugin.php:95
+msgid "Countries"
+msgstr "Landen"
+
+#: src/Plugin.php:101
+msgid ""
+"If gateway is only available for certain countries, set it up here. Leave "
+"blank to enable for all countries."
+msgstr ""
+"Als de gateway alleen voor bepaalde landen beschikbaar is, kun je dit hier "
+"instellen. Laat dit leeg om het in te schakelen voor alle landen."
+
+#: src/Plugin.php:104
+msgid "Select some countries"
+msgstr "Selecteer enkele landen"
+
+#~ msgid "Pronamic WooCommerce Payment Gateways Countries Condition"
+#~ msgstr "Pronamic WooCommerce Payment Gateways Countries Condition"

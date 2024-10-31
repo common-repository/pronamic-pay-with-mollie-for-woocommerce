@@ -1,0 +1,26 @@
+{
+	"name": "@pronamic/pronamic-payment-gateways-fees-for-woocommerce",
+	"version": "1.0.2",
+	"description": "This WordPress plugin adds settings to all WooCommerce gateways to add a fixed and/or variable (percentage) fee.",
+	"keywords": [
+		"pronamic",
+		"wordpress",
+		"woocommerce"
+	],
+	"author": "Pronamic",
+	"license": "UNLICENSED",
+	"private": true,
+	"devDependencies": {
+		"@wordpress/env": "^8.11.0",
+		"@wordpress/prettier-config": "^3.2.0",
+		"@wordpress/scripts": "^26.16.0",
+		"prettier": "npm:wp-prettier@^3.0.3",
+		"terser": "^5.24.0"
+	},
+	"prettier": "@wordpress/prettier-config",
+	"scripts": {
+		"lint-js": "wp-scripts lint-js ./js/src",
+		"js-minify-checkout": "terser js/src/checkout.js --compress --mangle --output js/dist/checkout.min.js",
+		"js-minify-order-pay": "terser js/src/order-pay.js --compress --mangle --output js/dist/order-pay.min.js"
+	}
+}
